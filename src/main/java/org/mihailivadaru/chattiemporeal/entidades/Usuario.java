@@ -18,5 +18,6 @@ public class Usuario {
     @Column(name = "id", nullable = false)
     private Long id;
     private String nombre;
+    private String email;
 
 }
